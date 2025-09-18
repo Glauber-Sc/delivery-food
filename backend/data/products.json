@@ -1,0 +1,511 @@
+[
+  {
+    "id": "prod_1",
+    "nome": "Pizza Marguerita",
+    "descricao": "Molho de tomate, mussarela, tomate fresco e manjericão",
+    "categoriaId": "cat_pizzas",
+    "precoBase": 35.9,
+    "imagem": "/imgs/pizza-marguerita.jpg",
+    "ativo": false,
+    "perguntas": [
+      {
+        "id": "q_tamanho",
+        "titulo": "Escolha o tamanho",
+        "tipo": "single",
+        "obrigatoria": true,
+        "min": 1,
+        "max": 1,
+        "opcoes": [
+          {
+            "id": "op_peq",
+            "label": "Pequena (25cm)",
+            "deltaPreco": -5,
+            "selecionadaPorPadrao": false
+          },
+          {
+            "id": "op_med",
+            "label": "Média (30cm)",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": true
+          },
+          {
+            "id": "op_grd",
+            "label": "Grande (35cm)",
+            "deltaPreco": 10,
+            "selecionadaPorPadrao": false
+          }
+        ]
+      },
+      {
+        "id": "q_adicionais",
+        "titulo": "Adicionais",
+        "tipo": "multiple",
+        "obrigatoria": false,
+        "min": 0,
+        "max": 5,
+        "opcoes": [
+          {
+            "id": "op_bacon",
+            "label": "Bacon",
+            "deltaPreco": 5
+          },
+          {
+            "id": "op_queijo",
+            "label": "Queijo extra",
+            "deltaPreco": 4
+          },
+          {
+            "id": "op_azeitona",
+            "label": "Azeitona",
+            "deltaPreco": 3
+          }
+        ]
+      },
+      {
+        "id": "q_obs",
+        "titulo": "Observações",
+        "tipo": "text",
+        "obrigatoria": false,
+        "placeholder": "Ex: sem cebola, massa fina"
+      }
+    ]
+  },
+  {
+    "id": "prod_2",
+    "nome": "X-Burger Clássico",
+    "descricao": "Hambúrguer artesanal, queijo, alface, tomate e molho especial",
+    "categoriaId": "cat_lanches",
+    "precoBase": 18.9,
+    "imagem": "/imgs/xburger.jpg",
+    "ativo": true,
+    "perguntas": [
+      {
+        "id": "q_ponto",
+        "titulo": "Ponto da carne",
+        "tipo": "single",
+        "obrigatoria": true,
+        "min": 1,
+        "max": 1,
+        "opcoes": [
+          {
+            "id": "op_mal",
+            "label": "Mal passado",
+            "deltaPreco": 0
+          },
+          {
+            "id": "op_ao_ponto",
+            "label": "Ao ponto",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": true
+          },
+          {
+            "id": "op_bem",
+            "label": "Bem passado",
+            "deltaPreco": 0
+          }
+        ]
+      },
+      {
+        "id": "q_extras",
+        "titulo": "Extras",
+        "tipo": "multiple",
+        "obrigatoria": false,
+        "min": 0,
+        "max": 3,
+        "opcoes": [
+          {
+            "id": "op_batata",
+            "label": "Batata frita",
+            "deltaPreco": 6
+          },
+          {
+            "id": "op_refri",
+            "label": "Refrigerante lata",
+            "deltaPreco": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod_3",
+    "nome": "Coca-Cola",
+    "descricao": "Refrigerante gelado",
+    "categoriaId": "cat_bebidas",
+    "precoBase": 5.5,
+    "imagem": "/imgs/coca.jpg",
+    "ativo": true,
+    "perguntas": [
+      {
+        "id": "q_tamanho_bebida",
+        "titulo": "Tamanho",
+        "tipo": "single",
+        "obrigatoria": true,
+        "min": 1,
+        "max": 1,
+        "opcoes": [
+          {
+            "id": "op_lata",
+            "label": "Lata 350ml",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": true
+          },
+          {
+            "id": "op_600",
+            "label": "Garrafa 600ml",
+            "deltaPreco": 2
+          },
+          {
+            "id": "op_2l",
+            "label": "Garrafa 2L",
+            "deltaPreco": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod_b5592b82",
+    "nome": "TESTE",
+    "descricao": "TESTE",
+    "categoriaId": "cat_pizzas",
+    "precoBase": 10,
+    "imagem": "/imgs/placeholder.jpg",
+    "ativo": false,
+    "perguntas": []
+  },
+  {
+    "id": "prod_84d9248f",
+    "nome": "pizza media",
+    "descricao": "pizza",
+    "categoriaId": "cat_pizzas",
+    "precoBase": 10,
+    "imagem": "/imgs/placeholder.jpg",
+    "ativo": true,
+    "perguntas": [
+      {
+        "id": "q_sabores_en9v",
+        "titulo": "Escolha os sabores",
+        "subtitulo": "Escolha até 2 sabores",
+        "tipo": "flavor",
+        "obrigatoria": true,
+        "min": 2,
+        "max": 2,
+        "fracionamento": 2,
+        "pricingRule": "maior",
+        "opcoes": [
+          {
+            "id": "sab_calabresa",
+            "label": "Calabresa",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_frango_catupiry",
+            "label": "Frango c/ Catupiry",
+            "deltaPreco": 3
+          },
+          {
+            "id": "sab_portuguesa",
+            "label": "Portuguesa",
+            "deltaPreco": 2
+          },
+          {
+            "id": "sab_marguerita",
+            "label": "Marguerita",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_bacon",
+            "label": "Bacon",
+            "deltaPreco": 2
+          },
+          {
+            "id": "sab_quatro_queijos",
+            "label": "4 Queijos",
+            "deltaPreco": 4
+          },
+          {
+            "id": "sab_milho",
+            "label": "Milho",
+            "deltaPreco": 1
+          },
+          {
+            "id": "sab_palmito",
+            "label": "Palmito",
+            "deltaPreco": 2
+          },
+          {
+            "id": "sab_pepperoni",
+            "label": "Pepperoni",
+            "deltaPreco": 3
+          },
+          {
+            "id": "sab_atum",
+            "label": "Atum",
+            "deltaPreco": 2
+          }
+        ]
+      },
+      {
+        "id": "qgrp_adicionais_32oc",
+        "titulo": "Adicionais",
+        "subtitulo": "Escolha até 5 opções",
+        "tipo": "quantity",
+        "obrigatoria": false,
+        "min": 0,
+        "max": 5,
+        "opcoes": [
+          {
+            "id": "add_carne_trad",
+            "label": "Carne Tradicional",
+            "descricao": "Hambúrguer Tradicional",
+            "deltaPreco": 6.5,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          },
+          {
+            "id": "add_banana",
+            "label": "Banana",
+            "descricao": "Frita na Chapa",
+            "deltaPreco": 5,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          },
+          {
+            "id": "add_calabresa",
+            "label": "Calabresa",
+            "descricao": "Calabresa Frita na Chapa",
+            "deltaPreco": 6,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          },
+          {
+            "id": "add_carne_150g",
+            "label": "Carne Caseira 150g",
+            "descricao": "Carne Caseira 150g",
+            "deltaPreco": 13,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          }
+        ]
+      },
+      {
+        "id": "q_w9100",
+        "titulo": "Escolha seu Refri",
+        "subtitulo": "",
+        "tipo": "single",
+        "obrigatoria": true,
+        "min": 0,
+        "max": 1,
+        "fracionamento": 1,
+        "pricingRule": "maior",
+        "opcoes": [
+          {
+            "id": "op_b9wqn",
+            "label": "Coca-Cola",
+            "descricao": "",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": false
+          },
+          {
+            "id": "op_efnt5",
+            "label": "Guarana Artartica",
+            "descricao": "",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": false
+          },
+          {
+            "id": "op_raliy",
+            "label": "Fanta Uva",
+            "descricao": "",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": false
+          },
+          {
+            "id": "op_js5re",
+            "label": "Fanta Laranja",
+            "descricao": "",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": false
+          }
+        ]
+      },
+      {
+        "id": "qgrp_obs_x2oa",
+        "titulo": "Observações",
+        "subtitulo": "Diga como quer seu pedido",
+        "tipo": "text",
+        "obrigatoria": false,
+        "placeholder": "Ex: sem cebola, massa fina"
+      }
+    ]
+  },
+  {
+    "id": "prod_144daf76",
+    "nome": "Pizza Familia + coca 2Litros",
+    "descricao": "Pizza de 8 Fatias",
+    "categoriaId": "cat_pizzas",
+    "precoBase": 50,
+    "imagem": "/imgs/placeholder.jpg",
+    "ativo": true,
+    "perguntas": [
+      {
+        "id": "q_sabores_2932",
+        "titulo": "Escolha os sabores",
+        "subtitulo": "Escolha até 10 sabores",
+        "tipo": "flavor",
+        "obrigatoria": true,
+        "min": 2,
+        "max": 2,
+        "fracionamento": 10,
+        "pricingRule": "maior",
+        "opcoes": [
+          {
+            "id": "sab_calabresa",
+            "label": "Calabresa",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_frango_catupiry",
+            "label": "Frango c/ Catupiry",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_portuguesa",
+            "label": "Portuguesa",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_marguerita",
+            "label": "Marguerita",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_bacon",
+            "label": "Bacon",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_quatro_queijos",
+            "label": "4 Queijos",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_milho",
+            "label": "Milho",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_palmito",
+            "label": "Palmito",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_pepperoni",
+            "label": "Pepperoni",
+            "deltaPreco": 0
+          },
+          {
+            "id": "sab_atum",
+            "label": "Atum",
+            "deltaPreco": 0
+          }
+        ]
+      },
+      {
+        "id": "qgrp_adicionais_1kdv",
+        "titulo": "Adicionais",
+        "subtitulo": "Escolha até 5 opções",
+        "tipo": "quantity",
+        "obrigatoria": false,
+        "min": 0,
+        "max": 5,
+        "opcoes": [
+          {
+            "id": "add_carne_trad",
+            "label": "Carne Tradicional",
+            "descricao": "Hambúrguer Tradicional",
+            "deltaPreco": 6.5,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          },
+          {
+            "id": "add_banana",
+            "label": "Banana",
+            "descricao": "Frita na Chapa",
+            "deltaPreco": 5,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          },
+          {
+            "id": "add_calabresa",
+            "label": "Calabresa",
+            "descricao": "Calabresa Frita na Chapa",
+            "deltaPreco": 6,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          },
+          {
+            "id": "add_carne_150g",
+            "label": "Carne Caseira 150g",
+            "descricao": "Carne Caseira 150g",
+            "deltaPreco": 13,
+            "qtyMin": 0,
+            "qtyMax": 5,
+            "qtyStep": 1,
+            "defaultQty": 0
+          }
+        ]
+      },
+      {
+        "id": "q_2bhe8",
+        "titulo": "",
+        "subtitulo": "",
+        "tipo": "single",
+        "obrigatoria": true,
+        "min": 0,
+        "max": 1,
+        "fracionamento": 1,
+        "pricingRule": "maior",
+        "opcoes": [
+          {
+            "id": "op_zcc2d",
+            "label": "Coca",
+            "descricao": "",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": false
+          },
+          {
+            "id": "op_o2adb",
+            "label": "Fanta",
+            "descricao": "",
+            "deltaPreco": 0,
+            "selecionadaPorPadrao": false
+          }
+        ]
+      },
+      {
+        "id": "qgrp_obs_leph",
+        "titulo": "Observações",
+        "subtitulo": "Diga como quer seu pedido",
+        "tipo": "text",
+        "obrigatoria": false,
+        "placeholder": "Ex: sem cebola, massa fina"
+      }
+    ]
+  }
+]

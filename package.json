@@ -1,0 +1,17 @@
+{
+  "name": "delivery-system",
+  "version": "1.0.0",
+  "description": "Sistema completo de delivery com PWA e painel administrativo",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../apps/pwa && npm install && cd ../admin && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:pwa\" \"npm run dev:admin\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:pwa": "cd apps/pwa && npm run dev",
+    "dev:admin": "cd apps/admin && npm run dev",
+    "build": "cd apps/pwa && npm run build && cd ../admin && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

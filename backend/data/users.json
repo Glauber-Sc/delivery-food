@@ -1,0 +1,9 @@
+[
+  {
+    "id": "user_1",
+    "email": "admin@delivery.com",
+    "senha": "$2b$10$rOzJaHsNTr5V2yGz5Fq1oeJ4j4j4j4j4j4j4j4j4j4j4j4j4j4j4j",
+    "nome": "Administrador",
+    "papel": "admin"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "qgrp_adicionais_qty",
+    "titulo": "Adicionais",
+    "subtitulo": "Escolha até 5 opções",
+    "tipo": "quantity",
+    "obrigatoria": false,
+    "min": 0,
+    "max": 5,
+    "ativo": true,
+    "defaultOnCreate": true,
+    "opcoes": [
+      {
+        "id": "add_carne_trad",
+        "label": "Carne Tradicional",
+        "descricao": "Hamburguer Tradicional",
+        "deltaPreco": 6.5,
+        "qtyMin": 0,
+        "qtyMax": 5,
+        "qtyStep": 1,
+        "defaultQty": 0
+      },
+      {
+        "id": "add_banana",
+        "label": "Banana",
+        "descricao": "Frita Na Chapa",
+        "deltaPreco": 5,
+        "qtyMin": 0,
+        "qtyMax": 5,
+        "qtyStep": 1,
+        "defaultQty": 0
+      },
+      {
+        "id": "add_calabresa",
+        "label": "Calabresa",
+        "descricao": "Calabresa Frita Na Chapa",
+        "deltaPreco": 6,
+        "qtyMin": 0,
+        "qtyMax": 5,
+        "qtyStep": 1,
+        "defaultQty": 0
+      },
+      {
+        "id": "add_carne_150g",
+        "label": "Carne Caseira 150g",
+        "descricao": "Carne Caseira 150g",
+        "deltaPreco": 13,
+        "qtyMin": 0,
+        "qtyMax": 5,
+        "qtyStep": 1,
+        "defaultQty": 0
+      }
+    ]
+  },
+  {
+    "id": "qgrp_observacoes",
+    "titulo": "Observações",
+    "subtitulo": "Diga como quer seu pedido",
+    "tipo": "text",
+    "obrigatoria": false,
+    "min": 0,
+    "max": 0,
+    "ativo": true,
+    "defaultOnCreate": true,
+    "placeholder": "Ex: sem cebola, massa fina"
+  }
+]

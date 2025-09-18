@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cat_pizzas",
+    "nome": "Pizzas",
+    "ordem": 1,
+    "ativa": true
+  },
+  {
+    "id": "cat_lanches",
+    "nome": "Lanches",
+    "ordem": 2,
+    "ativa": true
+  },
+  {
+    "id": "cat_bebidas",
+    "nome": "Bebidas",
+    "ordem": 3,
+    "ativa": true
+  },
+  {
+    "id": "cat_91767366",
+    "nome": "sorvete",
+    "ordem": 4,
+    "ativa": true
+  }
+]

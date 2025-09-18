@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gray-300 transition-colors;
+  }
+  
+  .btn-success {
+    @apply bg-success-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-success-600 transition-colors;
+  }
+  
+  .btn-danger {
+    @apply bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition-colors;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100;
+  }
+  
+  .input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none;
+  }
+}
+
+/* Loading animation */
+.loading-spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #DF2C2D;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Status colors */
+.status-novo { @apply bg-blue-100 text-blue-800; }
+.status-aceito { @apply bg-green-100 text-green-800; }
+.status-preparo { @apply bg-orange-100 text-orange-800; }
+.status-pronto { @apply bg-success-100 text-success-800; }
+.status-a_caminho { @apply bg-purple-100 text-purple-800; }
+.status-concluido { @apply bg-gray-100 text-gray-800; }
+.status-cancelado { @apply bg-red-100 text-red-800; }
+
+/* Kanban styles */
+.kanban-column {
+  @apply bg-gray-100 rounded-lg p-3 min-h-[500px];
+}
+
+.kanban-card {
+  @apply bg-white rounded-lg p-3 mb-3 shadow-sm border border-gray-200 cursor-pointer hover:shadow-md transition-shadow;
+}
+
+/* Animation for new orders */
+@keyframes bounce-in {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.new-order-animation {
+  animation: bounce-in 0.6s ease-out;
+}

@@ -1,0 +1,15 @@
+{
+  "nomeLoja": "Sabor Express",
+  "horarios": {
+    "seg_dom": "18:00-23:59"
+  },
+  "tempoMedioPreparoMin": 25,
+  "taxaEntregaPadrao": 0,
+  "raioEntregaKm": 6,
+  "metodosPagamento": [
+    "dinheiro",
+    "cartao_maquina",
+    "pix"
+  ],
+  "endereco": "Rua Antonio Barreto 166, Belém, PA, 66055-050"
+}

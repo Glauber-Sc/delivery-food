@@ -1,0 +1,721 @@
+[
+  {
+    "id": "ord_0c00bad1",
+    "status": "concluido",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 29.96,
+    "descontos": 0,
+    "total": 48.86,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber Santiago de Castro",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "cep": "67113355",
+      "rua": "Passagem São Jorge",
+      "numero": "49",
+      "bairro": "Coqueiro",
+      "complemento": "D"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-18T15:04:51.543Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-18T15:04:51.543Z",
+        "por": "sistema"
+      },
+      {
+        "status": "aceito",
+        "em": "2025-09-18T15:22:49.350Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "preparo",
+        "em": "2025-09-18T15:22:59.582Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "pronto",
+        "em": "2025-09-18T15:25:46.101Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "a_caminho",
+        "em": "2025-09-18T15:28:48.709Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "concluido",
+        "em": "2025-09-18T15:41:11.292Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_cf0589a7",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 29.97,
+    "descontos": 0,
+    "total": 48.87,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber Santiago de Castro",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "cep": "67113355",
+      "rua": "Passagem São Jorge",
+      "numero": "175",
+      "bairro": "Coqueiro",
+      "complemento": "D"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-18T02:28:49.599Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-18T02:28:49.599Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-18T02:37:34.606Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_1e8b03cd",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 8,
+    "descontos": 0,
+    "total": 26.9,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber Santiago de Castro",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "cep": "67113355",
+      "rua": "Passagem São Jorge",
+      "numero": "175",
+      "bairro": "Coqueiro",
+      "complemento": "D"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-18T02:26:55.128Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-18T02:26:55.128Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-18T02:27:54.050Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_59173ecf",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 2,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 37.8
+      }
+    ],
+    "subtotal": 37.8,
+    "taxaEntrega": 5,
+    "descontos": 0,
+    "total": 42.8,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber Santiago de Castro",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "cep": "67113355",
+      "rua": "Passagem São Jorge",
+      "numero": "175",
+      "bairro": "Coqueiro",
+      "complemento": "D"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-18T02:07:28.948Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-18T02:07:28.948Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-18T02:25:53.288Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_1fbd2c03",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 5,
+    "descontos": 0,
+    "total": 23.9,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "rua": "são jorge",
+      "numero": "49",
+      "bairro": "",
+      "complemento": "condomínio bosque ville Bloco C apt 302"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-17T00:25:29.875Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-17T00:25:29.875Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-17T00:25:38.546Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_faa69e97",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_144daf76",
+        "nome": "Pizza Familia + coca 2Litros",
+        "quantidade": 1,
+        "precoBase": 50,
+        "perguntasSelecionadas": {
+          "q_sabores_2932": [
+            "sab_calabresa",
+            "sab_frango_catupiry"
+          ],
+          "qgrp_adicionais_1kdv": {},
+          "q_2bhe8": [
+            "op_zcc2d"
+          ],
+          "qgrp_obs_leph": ""
+        },
+        "precoFinal": 50,
+        "subtotal": 50
+      }
+    ],
+    "subtotal": 50,
+    "taxaEntrega": 5,
+    "descontos": 0,
+    "total": 55,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "rua": "são jorge",
+      "numero": "49",
+      "bairro": "",
+      "complemento": "condomínio bosque ville Bloco C apt 302"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-16T23:39:05.390Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-16T23:39:05.390Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-18T15:46:53.077Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_59912628",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_144daf76",
+        "nome": "Pizza Familia + coca 2Litros",
+        "quantidade": 1,
+        "precoBase": 50,
+        "perguntasSelecionadas": {
+          "q_sabores_2932": [
+            "sab_atum",
+            "sab_pepperoni"
+          ],
+          "qgrp_adicionais_1kdv": {},
+          "q_2bhe8": [
+            "op_zcc2d"
+          ],
+          "qgrp_obs_leph": ""
+        },
+        "precoFinal": 50,
+        "subtotal": 50
+      }
+    ],
+    "subtotal": 50,
+    "taxaEntrega": 5,
+    "descontos": 0,
+    "total": 55,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "rua": "são jorge",
+      "numero": "49",
+      "bairro": "",
+      "complemento": "condomínio bosque ville Bloco C apt 302"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-14T18:11:12.880Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-14T18:11:12.880Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-14T18:11:33.683Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_fa1abe6b",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 5,
+    "descontos": 0,
+    "total": 23.9,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "rua": "são jorge",
+      "numero": "49",
+      "bairro": "",
+      "complemento": "condomínio bosque ville Bloco C apt 302"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-14T18:08:21.329Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-14T18:08:21.329Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-14T18:08:37.492Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_21b427ae",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_144daf76",
+        "nome": "Pizza Familia + coca 2Litros",
+        "quantidade": 1,
+        "precoBase": 50,
+        "perguntasSelecionadas": {
+          "q_sabores_2932": [
+            "sab_calabresa",
+            "sab_frango_catupiry"
+          ],
+          "qgrp_adicionais_1kdv": [],
+          "q_2bhe8": [
+            "op_zcc2d"
+          ],
+          "qgrp_obs_leph": [
+            ""
+          ]
+        },
+        "precoFinal": 50,
+        "subtotal": 50
+      }
+    ],
+    "subtotal": 50,
+    "taxaEntrega": 8,
+    "descontos": 0,
+    "total": 58,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "rua": "são jorge",
+      "numero": "49",
+      "bairro": "",
+      "complemento": "condomínio bosque ville Bloco C apt 302",
+      "cep": "67120-534"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-14T17:55:52.777Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-14T17:55:52.777Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-14T17:59:29.690Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_07d22c32",
+    "status": "concluido",
+    "itens": [
+      {
+        "produtoId": "prod_144daf76",
+        "nome": "Pizza Familia + coca 2Litros",
+        "quantidade": 1,
+        "precoBase": 50,
+        "perguntasSelecionadas": {
+          "q_sabores_2932": [
+            "sab_marguerita",
+            "sab_portuguesa"
+          ],
+          "qgrp_adicionais_1kdv": {},
+          "q_2bhe8": [
+            "op_zcc2d"
+          ],
+          "qgrp_obs_leph": "Sem cebola"
+        },
+        "precoFinal": 50,
+        "subtotal": 50
+      }
+    ],
+    "subtotal": 50,
+    "taxaEntrega": 8,
+    "descontos": 0,
+    "total": 58,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "GLAUBER SANTIAGO DE CASTRO",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "rua": "Passagem Pombo",
+      "numero": "175",
+      "bairro": "Coqueiro",
+      "complemento": "Apartamento 302"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-13T21:09:48.967Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-13T21:09:48.967Z",
+        "por": "sistema"
+      },
+      {
+        "status": "aceito",
+        "em": "2025-09-13T21:10:22.749Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "preparo",
+        "em": "2025-09-13T21:10:28.528Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "pronto",
+        "em": "2025-09-13T21:10:35.809Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "a_caminho",
+        "em": "2025-09-13T21:10:40.809Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      },
+      {
+        "status": "concluido",
+        "em": "2025-09-13T21:10:45.032Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_0d4f6639",
+    "status": "cancelado",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 0,
+    "descontos": 0,
+    "total": 18.9,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber Santiago de Castro",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "cep": "67113355",
+      "rua": "Passagem São Jorge",
+      "numero": "49",
+      "bairro": "Coqueiro",
+      "complemento": "D"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-18T16:09:40.412Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-18T16:09:40.412Z",
+        "por": "sistema"
+      },
+      {
+        "status": "cancelado",
+        "em": "2025-09-18T16:14:18.071Z",
+        "por": "admin@delivery.com",
+        "motivo": ""
+      }
+    ]
+  },
+  {
+    "id": "ord_826ebcb0",
+    "status": "novo",
+    "itens": [
+      {
+        "produtoId": "prod_2",
+        "nome": "X-Burger Clássico",
+        "quantidade": 1,
+        "precoBase": 18.9,
+        "perguntasSelecionadas": {
+          "q_ponto": [
+            "op_ao_ponto"
+          ],
+          "q_extras": {}
+        },
+        "precoFinal": 18.9,
+        "subtotal": 18.9
+      }
+    ],
+    "subtotal": 18.9,
+    "taxaEntrega": 0,
+    "descontos": 0,
+    "total": 18.9,
+    "pagamento": {
+      "metodo": "pix",
+      "status": "pendente",
+      "troco": 0
+    },
+    "cliente": {
+      "nome": "Glauber Santiago de Castro",
+      "telefone": "91980824554"
+    },
+    "endereco": {
+      "cep": "67113355",
+      "rua": "Passagem São Jorge",
+      "numero": "49",
+      "bairro": "Coqueiro",
+      "complemento": "D"
+    },
+    "observacoes": "",
+    "criadoEm": "2025-09-18T16:14:31.922Z",
+    "historico": [
+      {
+        "status": "novo",
+        "em": "2025-09-18T16:14:31.922Z",
+        "por": "sistema"
+      }
+    ]
+  }
+]
